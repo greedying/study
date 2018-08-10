@@ -23,7 +23,7 @@ https://github.com/JesseZhao1990/algorithm
 ````
 我写出的答案
 ```javascript
-function test (x) {
+function mySum (x) {
   var sum = x * x;
   
   var tmp = function(y) {
@@ -40,4 +40,21 @@ function test (x) {
   result.value = x * x
   return result;
 }
+```
+第二种写法，这里依赖对
+```javascript
+var mySum = function () {
+  var value = 0;
+  return function (x) {
+    if (this === mySum) {
+      value += x*x
+    } else {
+      value = x*x
+    }
+    var that = arguments.callee
+    var result = mySum.bind(that)
+    result.value = value
+    return result
+  }
+} ();
 ```
