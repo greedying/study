@@ -41,7 +41,7 @@ function mySum (x) {
   return result;
 }
 ```
-第二种写法，这里依赖对
+第二种写法，判断this
 ```javascript
 var mySum = function () {
   var value = 0;
