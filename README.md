@@ -25,20 +25,13 @@ https://github.com/JesseZhao1990/algorithm
 ```javascript
 function mySum (x) {
   var sum = x * x;
-  
   var tmp = function(y) {
     sum += y * y
     tmp.value = sum
     return tmp    
   } 
- 
-  var result = function (y) {
-    sum += y * y
-    tmp.value = sum;
-    return tmp
-  }
-  result.value = x * x
-  return result;
+  tmp.value = sum;
+  return tmp
 }
 ```
 第二种写法，判断this
