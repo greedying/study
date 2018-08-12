@@ -51,6 +51,23 @@ var mySum = function () {
   }
 } ();
 ```
+上面代码改善，不依赖具体函数名
+```javascript
+var mySum = function () {
+  var value = 0;
+  return function (x) {
+    if (this === arguments.callee) {
+      value += x*x
+    } else {
+      value = x*x
+    }
+    var result = arguments.callee.bind(arguments.callee)
+    result.value = value
+    return result
+  }
+} ();
+```
+
 
 ### vue 源码分析
 http://hcysun.me/vue-design/art/   
