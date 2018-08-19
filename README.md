@@ -3,6 +3,7 @@
 
 ## mysql
 http://blog.51cto.com/lizhenliang/2095526
+http://www.cnblogs.com/clsn/p/8038964.html#_label6
 
 ## php
  
