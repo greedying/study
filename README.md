@@ -2,11 +2,11 @@
 学习备忘录
 
 ## mysql
-http://blog.51cto.com/lizhenliang/2095526
-http://www.cnblogs.com/clsn/p/8038964.html#_label6
+http://blog.51cto.com/lizhenliang/2095526   
+http://www.cnblogs.com/clsn/p/8038964.html#_label6   
 
-大表优化方案
-https://segmentfault.com/a/1190000006158186
+大表优化方案   
+https://segmentfault.com/a/1190000006158186   
 
 ## php
  
