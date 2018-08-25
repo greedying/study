@@ -8,6 +8,10 @@ http://www.cnblogs.com/clsn/p/8038964.html#_label6
 大表优化方案   
 https://segmentfault.com/a/1190000006158186   
 
+性能调优脚本   
+https://launchpad.net/mysql-tuning-primer/
+使用方法：将tuning-primer.sh拷贝到my.cnf的同级目录执行:
+
 ## php
  
 ### clean code php （代码整洁之道）
