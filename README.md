@@ -12,7 +12,7 @@ https://segmentfault.com/a/1190000006158186
 https://launchpad.net/mysql-tuning-primer/
 使用方法：将tuning-primer.sh拷贝到my.cnf的同级目录执行:
 
-mysql 双主热备blog
+mysql 双主热备blog    
 https://blog.csdn.net/l192168134/article/details/75601773
 
 ## php
