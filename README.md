@@ -15,6 +15,10 @@ https://launchpad.net/mysql-tuning-primer/
 mysql 双主热备blog    
 https://blog.csdn.net/l192168134/article/details/75601773
 
+另外一篇，mysql 主从   
+http://www.cnblogs.com/exceptioneye/p/5042133.html
+
+
 ## php
  
 ### clean code php （代码整洁之道）
