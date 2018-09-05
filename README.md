@@ -5,6 +5,9 @@
 http://blog.51cto.com/lizhenliang/2095526   
 http://www.cnblogs.com/clsn/p/8038964.html#_label6   
 
+mysql 与 B tree   
+https://www.cnblogs.com/xiaoxi/p/6868087.html   
+
 大表优化方案   
 https://segmentfault.com/a/1190000006158186   
 
