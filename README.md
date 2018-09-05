@@ -6,13 +6,15 @@ http://blog.51cto.com/lizhenliang/2095526
 http://www.cnblogs.com/clsn/p/8038964.html#_label6   
 
 mysql 与 B tree   
-https://www.cnblogs.com/xiaoxi/p/6868087.html   
-
+https://www.cnblogs.com/xiaoxi/p/6868087.html     
+MySQL索引背后的数据结构及算法原理    
+http://blog.codinglabs.org/articles/theory-of-mysql-index.html     
+ 
 大表优化方案   
 https://segmentfault.com/a/1190000006158186   
 
 性能调优脚本   
-https://launchpad.net/mysql-tuning-primer/
+https://launchpad.net/mysql-tuning-primer/   
 使用方法：将tuning-primer.sh拷贝到my.cnf的同级目录执行:
 
 mysql 双主热备blog    
